@@ -1,0 +1,9 @@
+{
+  "name": "yarntest",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "blue",
+    "red"
+  ]
+}
