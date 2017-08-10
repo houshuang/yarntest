@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add lodash
+
+PATH: 
+  /Users/stian/.fzf/bin:/Users/stian/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
+
+Yarn version: 
+  0.28.4
+
+Node version: 
+  6.11.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "@houshuang/red",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "@houshuang/blue": "^1.0.0",
+      "helloworld": "^0.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@houshuang%2fblue: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/bin/yarn.js:58236:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/bin/yarn.js:113056:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/bin/yarn.js:114039:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/bin/yarn.js:113959:12)
+      at IncomingMessage.g (events.js:292:16)
+      at emitNone (events.js:91:20)

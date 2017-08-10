@@ -1,9 +1,9 @@
 {
-  "name": "red",
+  "name": "reduniquepackage",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "blue": "^1.0.0"
+    "blueuniquepackage": "^1.0.0"
   }
 }
